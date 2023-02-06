@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Incremental industries</title>
+    <link href="stylesheet.css" rel="stylesheet">
+</header>
+
+<body>
+    <h1>Incremental industries</h1>
+    <h2>By Bobby M, 2023</h2>
+    <div class="tabBar">
+        <button id="defaultTab" class="tabLink" onclick="openTab(event, 'craftingTab')">Crafting</button>
+        <button class="tabLink" onclick="openTab(event, 'warehouseTab')">Warehouse</button>
+        <button class="tabLink" onclick="openTab(event, 'buildingsTab')">Buildings</button>
+        <button class="tabLink" onclick="openTab(event, 'researchTab')">Research</button>
+    </div>
+
+    <div id="craftingTab" class="tabContent">
+        <h3>Crafting</h3>
+    </div>
+
+    <div id="warehouseTab" class="tabContent">
+        <h3>Warehouse</h3>
+        <div id="inventoryDiv"></div>
+    </div>
+
+    <div id="buildingsTab" class="tabContent">
+        <h3>Buildings</h3>
+    </div>
+
+    <div id="researchTab" class="tabContent">
+        <h3>Research</h3>
+    </div>
+</body>
+<script src="data.js"></script>
+<script src="page.js"></script>
+<script src="init.js"></script>
+
+</html>
