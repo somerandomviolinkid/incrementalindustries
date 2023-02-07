@@ -27,6 +27,16 @@ let data = {
         type: 'uncountable',
         title: 'Magnetite'
     },
+    chromite: {
+        amount: 0,
+        type: 'uncountable',
+        title: 'Chromite'
+    },
+    pentlandite: {
+        amount: 0,
+        type: 'uncountable',
+        title: 'Pentlandite'
+    },
 
     //chemicals
     moltenPolyethylene: {
@@ -57,7 +67,44 @@ let data = {
         title: 'Hydrofluoric acid'
     },
 
-    //metals
+    //molten metals
+    moltenIron: {
+        amount: 0,
+        type: 'liquid',
+        title: 'Molten iron'
+    },
+    moltenNickel: {
+        amount: 0,
+        type: 'liquid',
+        title: 'Molten nickel'
+    },
+    moltenCopper: {
+        amount: 0,
+        type: 'liquid',
+        title: 'Molten copper'
+    },
+    moltenGold: {
+        amount: 0,
+        type: 'liquid',
+        title: 'Molten gold'
+    },
+    moltenPlatinum: {
+        amount: 0,
+        type: 'liquid',
+        title: 'Molten platinum'
+    },
+    moltenSilver: {
+        amount: 0,
+        type: 'liquid',
+        title: 'Molten silver'
+    },
+    moltenTitanium: {
+        amount: 0,
+        type: 'liquid',
+        title: 'Molten titanium'
+    },
+
+    //metal things
     smallCopperPlate: {
         amount: 0,
         type: 'countable',
