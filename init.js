@@ -12,11 +12,11 @@ for (i in data) {
     //text inside square
     let currentResourceCount = document.createElement("p");
     if (data[i].type == 'countable') {
-        currentResourceCount.innerHTML = data[i].title + ": " + data[i].amount;
+        currentResourceCount.innerHTML = data[i].title + ":<br>" + data[i].amount;
     } else if (data[i].type == 'uncountable') {
-        currentResourceCount.innerHTML = data[i].title + ": " + data[i].amount + " kg";
+        currentResourceCount.innerHTML = data[i].title + ":<br>" + data[i].amount + " kg";
     } else  if (data[i].type == 'liquid') {
-        currentResourceCount.innerHTML = data[i].title + ": " + data[i].amount + " L";
+        currentResourceCount.innerHTML = data[i].title + ":<br>" + data[i].amount + " L";
     }
     document.getElementById(currentInventorySquareID).appendChild(currentResourceCount);
 
