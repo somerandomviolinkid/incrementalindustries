@@ -9,11 +9,15 @@
     <h1>Incremental industries</h1>
     <h2>By Bobby M, 2023</h2>
     <div class="tabBar">
-        <button id="defaultTab" class="tabLink" onclick="openTab(event, 'craftingTab')">Crafting</button>
+        <button id="defaultTab" class="tabLink" onclick="openTab(event, 'resourcesTab')">Resources</button>
+        <button class="tabLink" onclick="openTab(event, 'craftingTab')">Crafting</button>
         <button class="tabLink" onclick="openTab(event, 'warehouseTab')">Warehouse</button>
         <button class="tabLink" onclick="openTab(event, 'buildingsTab')">Buildings</button>
         <button class="tabLink" onclick="openTab(event, 'researchTab')">Research</button>
     </div>
+    <div id="resourcesTab" class="tabContent">
+        <h3>Resources</h3>
+    </div>  
 
     <div id="craftingTab" class="tabContent">
         <h3>Crafting</h3>
